@@ -17,8 +17,7 @@ package org.eclipse.store.storage.restclient.app.ui;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-import javax.servlet.http.HttpServletResponse;
-
+import jakarta.servlet.http.HttpServletResponse;
 import org.eclipse.store.storage.restclient.app.types.ApplicationErrorHandler;
 import org.eclipse.store.storage.restclient.app.types.SessionData;
 

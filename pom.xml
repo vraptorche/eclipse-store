@@ -58,20 +58,19 @@
     </modules>
 
     <scm>
-        <connection>scm:git:git@github.com:eclipse-store/store.git</connection>
-        <developerConnection>scm:git:git@github.com:eclipse-store/store.git</developerConnection>
-        <url>https://github.com/eclipse-store</url>
+        <connection>scm:git:git@github.com:vraptorche/eclipse-store.git</connection>
+        <developerConnection>scm:git:git@github.com:vraptorche/eclipse-store.git</developerConnection>
         <tag>store-parent-1.1.0</tag>
     </scm>
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>jware-nexus-snapshots</id>
+            <url>https://nexus.jurassicware.com:8443/repository/jware-snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>jware-nexus-releases</id>
+            <url>https://nexus.jurassicware.com:8443/repository/jware-release</url>
         </repository>
     </distributionManagement>
 
